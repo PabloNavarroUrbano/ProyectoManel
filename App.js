@@ -86,8 +86,8 @@ const MyChip2 = () => (
   <Chip style={styles.chip2} icon="web" onPress={() => console.log('Pressed')}>Internet</Chip>
 )
 
-
-const App: () => Node = () => {
+//Modificat per Manel
+const App = () => {
 
   const isDarkMode = useColorScheme() === 'dark';
 
